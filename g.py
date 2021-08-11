@@ -33,8 +33,9 @@ def monitoring_google_maps(driver, urls):
 
 
 chrome_options = Options()
-#chrome_options.add_argument('--headless')
-#chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
 #chrome_options.add_experimental_option("prefs", {'profile.managed_default_content_settings.javascript': 2})
 driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
 
