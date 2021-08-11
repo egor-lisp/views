@@ -1,0 +1,2 @@
+TOKEN = '1925512310:AAEZ4INOdWG_rIyuMHT0C-zneRgbFmM6mfE'
+chat_id = '92223622'
